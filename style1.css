@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b3b3b3;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+    width:130px ;
+    margin-left: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-right:20px ;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 40px;
+}
+
+.rrq-img{
+    z-index: 1;
+    margin: 0px 0px 10px -560px ;
+    height: 500px;
+    height: 500px;
+    opacity: 40%;
+}
+
+.skylar-img {
+    z-index: 2;
+    width: 560px;
+    height: 500px;
+}
+
+.text {
+    color: black;
+    z-index: 2;
+}
+
+.text h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin:0px 0px 10px -130px;
+    z-index: 2;
+}
+
+.text p {
+    font-size: 22px;
+    margin:0px 0px 10px -130px;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    margin:0px 0px 10px -130px;
+}
+
+.digital{
+    z-index: 3;
+    margin-top: -45px;
+    background-color: white;
+    padding: 40px 15px 40px 0px;
+    text-align: right;
+    
+}
+
